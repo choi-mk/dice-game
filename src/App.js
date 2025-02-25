@@ -30,7 +30,7 @@ function App() {
     <div>
       <Board color="blue" num={gameHistory1.at(-1)} gameHistory={gameHistory1}/>
       <Board color="red" num={gameHistory2.at(-1)} gameHistory={gameHistory2}/>
-      <Button onClick={handleClick} text="던지기" />
+      <Button onClick={handleClick} text="주사위 던지기" />
       <Button onClick={handleReset} text="처음부터" />
     </div>
   );
